@@ -12,6 +12,11 @@ const HomeSearch = () => {
         />
         <HiMicrophone className="text-xl" />
       </form>
+
+      <div className="flex flex-col sm:flex-row justify-center items-center gap-3">
+        <button className="btn">Google Search</button>
+        <button className="btn">I&apos;m felling lucky</button>
+      </div>
     </>
   );
 };
