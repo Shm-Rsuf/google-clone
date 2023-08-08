@@ -15,6 +15,7 @@ const HomePage = () => {
             height={50}
             alt="google image"
             className="w-56 sm:w-64"
+            priority
           />
         </div>
         <HomeSearch />
