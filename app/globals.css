@@ -6,4 +6,12 @@
   .btn {
     @apply py-1 px-3 bg-[#f8f9fa] text-sm text-gray-800 rounded-md hover:ring-1 hover:ring-gray-200 focus:outline-none w-36 h-9 hover:shadow-md transition-shadow active:ring-sky-300;
   }
+
+  .links {
+    @apply flex items-center space-x-5;
+  }
+
+  .link {
+    @apply hover:underline cursor-pointer;
+  }
 }

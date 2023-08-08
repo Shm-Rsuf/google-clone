@@ -8,6 +8,7 @@ const HomeSearch = () => {
   const router = useRouter();
   const [input, setInput] = useState("");
   const [searchLoading, setSearchLoading] = useState(false);
+
   /* handleFormSubmit */
   const handleFormSubmit = (e) => {
     e.preventDefault();
