@@ -14,4 +14,8 @@
   .link {
     @apply hover:underline cursor-pointer;
   }
+
+  .search-header_icon {
+    @apply bg-transparent hover:bg-slate-200 rounded-full p-2 text-4xl cursor-pointer duration-200 transition-colors;
+  }
 }

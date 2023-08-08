@@ -11,8 +11,8 @@ const HomeHeader = () => {
         <Link href="#" className="hover:underline cursor-pointer duration-300">
           Image
         </Link>
-        <TbGridDots className="text-4xl hover:bg-slate-200/95 rounded-full bg-transparent p-2 cursor-pointer duration-300" />
-        <button className="bg-blue-500 text-white px-4 py-2 rounded-md transition-all hover:brightness-110">
+        <TbGridDots className="text-4xl hover:bg-slate-200 rounded-full bg-transparent p-2 cursor-pointer duration-300" />
+        <button className="bg-blue-500 text-white px-4 py-2 rounded-md transition-all hover:brightness-105">
           Sign In
         </button>
       </div>
