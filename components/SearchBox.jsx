@@ -1,16 +1,18 @@
 "use client";
 import { useSearchParams, useRouter } from "next/navigation";
+import { useState } from "react";
 
 import { RxCross2 } from "react-icons/rx";
 import { BsFillMicFill } from "react-icons/bs";
 import { AiOutlineSearch } from "react-icons/ai";
-import { useState } from "react";
+
 const SearchBox = () => {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const searchTerm = searchParams.get("searchTerm");
 
+  const searchTerm = searchParams.get("searchTerm");
   const [term, setTerm] = useState(searchTerm || "");
+
   /* handleSubmit */
   const handleSubmit = (e) => {
     e.preventDefault();
