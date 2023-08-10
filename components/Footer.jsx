@@ -7,7 +7,7 @@ const Footer = () => {
         <CountryLookup />
       </div>
 
-      <div className=" flex flex-col sm:flex-row items-center justify-between px-4 py-3">
+      <div className=" flex flex-col sm:flex-row items-center justify-between px-4 py-4">
         <ul className="links">
           <li className="link">About</li>
           <li className="link">Advertising</li>
