@@ -4,7 +4,7 @@ import { data } from "autoprefixer";
 import { useEffect, useState } from "react";
 
 const CountryLookup = () => {
-  const [country, setCountry] = useState("India");
+  const [country, setCountry] = useState("Bangladesh");
 
   /* fetching data */
   useEffect(() => {
