@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PaginationBtn from "./PaginationBtn";
 
 const ImageSearchResults = ({ results }) => {
   // console.log("results :", results.items);
@@ -29,6 +30,7 @@ const ImageSearchResults = ({ results }) => {
           </div>
         ))}
       </div>
+      <PaginationBtn />
     </div>
   );
 };
