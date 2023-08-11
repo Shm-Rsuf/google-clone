@@ -4,7 +4,7 @@ import PaginationBtn from "./PaginationBtn";
 const ImageSearchResults = ({ results }) => {
   // console.log("results :", results.items);
   return (
-    <div className="sm:pb-24 pb-40 mt-5 px-10">
+    <div className="sm:pb-24 pb-40 mt-5">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 space-x-4">
         {results.items.map((result) => (
           <div key={result.link} className="mb-8">
@@ -30,7 +30,9 @@ const ImageSearchResults = ({ results }) => {
           </div>
         ))}
       </div>
-      <PaginationBtn />
+      <div className="sm:ml-16 ">
+        <PaginationBtn />
+      </div>
     </div>
   );
 };
